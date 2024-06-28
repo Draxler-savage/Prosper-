@@ -1,0 +1,263 @@
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+ }
+
+ body{
+    font-family: 'poppins', sans-serif;
+ }
+ html{
+    scroll-behavior: smooth;
+ }
+
+ .background{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.68),rgba(0, 0, 0, 0.68) ,rgba(0, 0, 0, 0.68) ,rgba(0, 0, 0, 0)) ,url('./background.jpg');
+    background-size: cover;
+    background-repeat:no-repeat;
+    height:100vh;
+ }
+
+ .desktop-nav{
+    float: right;
+    border: 1px solid none;
+ }
+ ul li{
+    float: right;
+    width: 70px;
+    text-transform: capitalize;
+    font-family: kulim park,sans-serif;
+    list-style-type: none;
+ }
+ul li a{
+text-decoration:none ;
+color: white;
+
+}
+ul li a:hover{
+color: blue;
+}
+.icon{
+    font-size: 24px;
+    color: blue;
+    font-family: kulim park,sans-serif;
+    position: absolute;
+    left: 2%;
+}
+span{
+    color: white;
+}
+.context{
+    position: absolute;
+    left: 20%;
+    top: 20%;
+
+}
+
+h5{
+    font-size: 50px;
+    color: white;
+    font-family: kulim park,sans-serif;
+    font-weight: bolder;
+    text-transform: uppercase;
+}
+
+font{
+    color: white;
+    opacity: 0.2;
+
+}
+h6{
+    font-size: 14px;
+    color: white;
+    font-family: kulim park,sans-serif;
+    font-weight: normal;
+    width: 550px;
+    margin-top: 5px;
+    opacity: 0.4;
+    text-align: justify;
+}
+
+.background-2{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.68),rgba(0, 0, 0, 0.68) ,rgba(0, 0, 0, 0.68) ,rgba(0, 0, 0, 0)) ,url('./Background\ 2.jpg');
+    background-size: cover;
+    background-repeat:no-repeat;
+    height:100vh;
+ }
+
+ .about{
+    width: 100%;
+    padding: 78px 0px;
+ }
+
+
+
+ #about img{
+    margin-left: -300px; 
+    margin-top: 50px;
+    height: auto;
+    width: 400px;
+    top: 5000%;
+    left: 100%;
+    border-radius: 20px;
+ }
+
+ .about-text{
+    width: 900px;
+    
+ }
+
+ .main{
+    width: 900px;
+    max-width: 40%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+ }
+ .about-text{
+    color: white;
+    font-size: 30px;
+    text-transform: capitalize;
+    margin-bottom: 1px;
+    margin: 30px;
+    left: 20%;
+    
+ }
+ .about-text h5{
+    color: white;
+    font-size: 30px;
+    text-transform: capitalize;
+    margin-bottom: 1px;
+    margin: 30px;
+    left: 20%;
+ }
+
+ h5 span{
+    color: blue;
+ }
+
+ .about-text p{
+color: rgba(255, 223, 204, 0.781);
+letter-spacing: 1px;
+font-size: 15px;
+list-style: 40px;
+}
+
+.about-text ol{
+   color: rgba(255, 223, 204, 0.781);
+   letter-spacing: 1px;
+   line-height: 20px;
+   font-size: 15px;
+   margin: 25px;
+
+}
+
+.background-3{
+   background-image: linear-gradient(rgba(0, 0, 0, 0.68),rgba(0, 0, 0, 0.68) ,rgba(0, 0, 0, 0.68) ,rgba(0, 0, 0, 0)) ,url('./background\ 5.jpg');
+   background-size: cover;
+   background-repeat:no-repeat;
+   height:100vh;
+}
+#music img{
+   border-radius: 20px;
+   position: absolute;
+   margin: -10px -9px;
+   opacity: 0.8;
+   height: auto;
+   width: 150px;
+   top: 10%;
+   left: 16%;
+}
+
+
+.cover{
+   border: 1px solid black;
+   text-align: center;
+   width: 210px;
+   height: 300px;
+   left: 5%;
+   top: 210%;
+   position: absolute;
+   border-radius: 20px;
+   box-shadow: 0px 0px 16px 7px;
+
+}
+
+.subcover{
+   border-bottom: 1px solid none;
+   background: none;
+   width: 150px;
+   height: 150px;
+   opacity: 0.8;
+   border-radius: 15px;
+   top: 300%;
+
+}
+
+.text{
+   position: absolute;
+   margin:  -3px 5px;
+   left: 1%;
+   top: 56%;
+   
+}
+
+.text h1{
+   color: white;
+   font-family: kulim park, sans-serif;
+   line-height: 4px;
+   font-weight: normal;
+   font-size: 15px;
+   margin: 20px;
+}
+
+.text h2{
+   color: white;
+   font-family: kulim park, sans-serif;
+   line-height: 4px;
+   font-weight: normal;
+   font-size: 20px;
+   margin: 20px;
+   
+   
+}
+
+.text audio{
+   font-size: 20px;
+   width: 180px;
+}
+
+.cover-2{
+   border: 1px solid black;
+   text-align: center;
+   width: 210px;
+   height: 300px;
+   left: 5%;
+   top: 210%;
+   position: absolute;
+   border-radius: 20px;
+   box-shadow: 0px 0px 16px 7px;
+
+}
+
+.subcover-2{
+   border-bottom: 1px solid none;
+   background: none;
+   width: 150px;
+   height: 150px;
+   opacity: 0.8;
+   border-radius: 15px;
+   top: 300%;
+
+}
+
+.text-2{
+   position: absolute;
+   margin:  -3px 5px;
+   left: 1%;
+   top: 56%;
+}
